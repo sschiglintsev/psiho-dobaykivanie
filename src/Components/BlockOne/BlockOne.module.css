@@ -1,0 +1,30 @@
+.blockOneContainer {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlePage {
+
+}
+
+.block2 {
+    background-color: #009393;
+    width: 90%;
+    height: 820px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.item {
+    width: 90%;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
