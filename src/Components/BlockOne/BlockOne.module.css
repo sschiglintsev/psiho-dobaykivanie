@@ -5,26 +5,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .titlePage {
-
+    font-size: 28px;
+    font-weight: 300;
 }
 
 .block2 {
     background-color: #009393;
     width: 90%;
-    height: 820px;
+    height: 620px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
 }
 
 .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 400;
     width: 90%;
-    border: 1px solid;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.itemText {
+    width: 95%;
 }

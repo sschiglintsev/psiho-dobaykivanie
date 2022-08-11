@@ -5,10 +5,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .titlePage {
-
+    font-size: 28px;
+    font-weight: 300;
 }
 .blockContainer {
     width: 100%;
@@ -18,6 +20,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .block3 {
@@ -28,6 +31,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
 
 }
 
@@ -47,6 +53,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
 
 }
 .block5 {
@@ -57,13 +66,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
 
 }
 
-
 .item {
     width: 90%;
-    border: 1px solid;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
