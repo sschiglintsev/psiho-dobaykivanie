@@ -6,7 +6,7 @@ export const BlockTwo = () => {
         <div className={style.blockOneContainer}>
             <div className={style.titlePage}>
                 <h2>
-                    Для чего необходима практика:
+                    Варианты участия для вас:
                 </h2>
             </div>
             <div className={style.blockContainer}>
