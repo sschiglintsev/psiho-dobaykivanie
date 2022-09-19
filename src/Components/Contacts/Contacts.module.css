@@ -1,0 +1,125 @@
+.blockOneContainer {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titlePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25d366;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.2;
+    height: auto;
+    min-height: 60px;
+    width: 500px;
+
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0088cc;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.2;
+    height: auto;
+    min-height: 60px;
+    width: 500px;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0077FF;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.2;
+    height: auto;
+    min-height: 60px;
+    width: 500px;
+}
+
+.communication {
+    color: white;
+    text-decoration: none;
+}
+
+.boxtel {
+    margin-bottom: 20px;
+}
+
+.tel {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.boxPlaceTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.boxPlaceText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.boxFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
