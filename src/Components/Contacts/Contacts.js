@@ -17,19 +17,19 @@ export const Contacts = () => {
                         </h3>
                     </div>
                     <div className={style.boxtel}>
-                        <a className={style.tel} href="tel:+74951234567">
+                        <a className={style.tel} href="tel:+79173450607">
                             +7 917 345 06 07
                         </a>
                     </div>
                     <div>
-                        <a target="_blank" className={style.communication} href="tel:+74951234567">
+                        <a target="_blank" className={style.communication} href="https://api.whatsapp.com/send?phone=79173450607">
                             <div className={style.box1}>
                                 WhatsApp
                             </div>
                         </a>
                     </div>
                     <div>
-                        <a target="_blank" className={style.communication} href="tel:+74951234567">
+                        <a target="_blank" className={style.communication} href="https://t.me/jultava">
                             <div className={style.box2}>
                                 Telegram
                             </div>
