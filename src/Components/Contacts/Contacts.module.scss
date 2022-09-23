@@ -1,0 +1,208 @@
+.blockOneContainer {
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  .titlePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 300;
+    @media screen and (max-width: 750px) {
+      font-size: 22px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 420px) {
+      font-size: 14px;
+    }
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    @media screen and (max-width: 600px) {
+      width: 450px;
+    }
+    @media screen and (max-width: 450px) {
+      width: 350px;
+    }
+      .ttitleText {
+          @media screen and (max-width: 450px) {
+              font-size: 12px;
+              font-weight: 300;
+          }
+      }
+
+    .boxtel {
+      margin-bottom: 20px;
+
+      .tel {
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-bottom: 20px;
+        @media screen and (max-width: 450px) {
+            font-size: 24px;
+            font-weight: 400;
+        }
+      }
+    }
+
+    .communication {
+      color: white;
+      text-decoration: none;
+
+      .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #25d366;
+        border-radius: 10px;
+        padding: 12px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        line-height: 1.2;
+        height: auto;
+        min-height: 60px;
+        width: 500px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        @media screen and (max-width: 600px) {
+          width: 400px;
+        }
+        @media screen and (max-width: 450px) {
+          width: 300px;
+        }
+      }
+
+      .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0088cc;
+        border-radius: 10px;
+        padding: 12px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        line-height: 1.2;
+        height: auto;
+        min-height: 60px;
+        width: 500px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        @media screen and (max-width: 600px) {
+          width: 400px;
+        }
+        @media screen and (max-width: 450px) {
+          width: 300px;
+        }
+      }
+
+      .box3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0077FF;
+        border-radius: 10px;
+        padding: 12px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        line-height: 1.2;
+        height: auto;
+        min-height: 60px;
+        width: 500px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        @media screen and (max-width: 600px) {
+          width: 400px;
+        }
+        @media screen and (max-width: 450px) {
+          width: 300px;
+        }
+      }
+    }
+
+    .boxPlaceTitle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 300;
+        @media screen and (max-width: 450px) {
+            font-size: 18px;
+        }
+      @media screen and (max-width: 350px) {
+        font-size: 16px;
+      }
+    }
+
+    .boxPlaceText {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 200;
+        @media screen and (max-width: 450px) {
+            font-size: 14px;
+        }
+      @media screen and (max-width: 350px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .boxFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 10px;
+      padding-top: 10px;
+      @media screen and (max-width: 450px) {
+          font-size: 24px;
+      }
+    @media screen and (max-width: 370px) {
+      font-size: 20px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

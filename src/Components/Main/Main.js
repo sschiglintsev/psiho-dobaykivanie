@@ -1,4 +1,4 @@
-import style from './Main.module.css'
+import style from './Main.module.scss'
 import logo from '../../asset/img/logo.png'
 import photoMain from '../../asset/img/foto1.png'
 import {BsFillTelephoneFill} from "react-icons/bs";
@@ -10,14 +10,14 @@ export const Main = () => {
         <div className={style.mainContainer}>
             <div className={style.header}>
                 <div className={style.logo}>
-                    <img src={logo} alt={'Jultava Juja Добаюкивание Уфа'}/>
+                    <img className={style.logoImg} src={logo} alt={'Jultava Juja Добаюкивание Уфа'}/>
                 </div>
                 <div className={style.desGroup}>
                     <span>Мастер по добаюкиванию,</span>
-                    <span>переринотальный психолог</span>
+                    <span>перинотальный психолог</span>
                 </div>
                 <div className={style.contactLocation}>
-                    <span>г.Уфа, Улица Аксакова 81/1</span>
+                    <span>г.Уфа</span>
                     <span>Ежедневно с 9:00 до 20:00</span>
                 </div>
                 <div className={style.contactTelEmail}>
@@ -87,8 +87,8 @@ export const Main = () => {
                     </div>
 
                 </div>
-                <div>
-                    <img src={photoMain} alt={'Jultava Juja Добаюкивание Уфа'}/>
+                <div className={style.blockImage}>
+                    <img className={style.image} src={photoMain} alt={'Jultava Juja Добаюкивание Уфа'}/>
                 </div>
             </div>
         </div>

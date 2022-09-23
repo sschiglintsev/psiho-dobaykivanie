@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Contacts.module.css";
+import style from "./Contacts.module.scss";
 
 export const Contacts = () => {
     return (
@@ -11,7 +11,7 @@ export const Contacts = () => {
                     </h2>
                 </div>
                 <div className={style.box}>
-                    <div>
+                    <div className={style.ttitleText}>
                         <h3>
                             Бронирование по телефону и мессенджерах:
                         </h3>
@@ -49,7 +49,7 @@ export const Contacts = () => {
                             </h3>
                         </div>
                         <div className={style.boxPlaceText}>
-                            г.Уфа, Верхнеторговая площадь 4, этаж 6, студия 624
+                            г.Уфа
                         </div>
                     </div>
                 </div>

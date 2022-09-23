@@ -1,0 +1,78 @@
+.blockOneContainer {
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .titlePage {
+    font-size: 28px;
+    font-weight: 300;
+    @media screen and (max-width: 750px) {
+      font-size: 22px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 420px) {
+      font-size: 14px;
+    }
+    @media screen and (max-width: 360px) {
+      font-size: 12px;
+    }
+  }
+
+  .block2 {
+    background-color: #009393;
+    width: 90%;
+    height: 620px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    @media screen and (max-width: 1650px) {
+      height: 500px;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 28px;
+      font-weight: 400;
+      width: 90%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      @media screen and (max-width: 1650px) {
+        font-size: 22px;
+      }
+      @media screen and (max-width: 1400px) {
+        font-size: 18px;
+      }
+      @media screen and (max-width: 950px) {
+        font-size: 14px;
+      }
+      @media screen and (max-width: 600px) {
+        font-size: 12px;
+      }
+      @media screen and (max-width: 420px) {
+        font-size: 10px;
+      }
+    }
+
+    .itemText {
+      width: 95%;
+    }
+
+  }
+}
+
+
+
+
+
+

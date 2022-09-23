@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './BlockTwo.module.css'
+import style from './BlockTwo.module.scss'
 
 export const BlockTwo = () => {
     return (

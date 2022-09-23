@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './BlockOne.module.css'
+import style from './BlockOne.module.scss'
 import {TbPoint} from "react-icons/tb";
 
 export const BlockOne = () => {
